@@ -10,9 +10,7 @@ var longestPalindrome = function(s) {
      if (s.length < 1 || s === null) return "";
     
     let longestPalindrome = "";
-    
-    
-    
+        
     for (let i = 0; i < s.length; i++ ){
         
         let oddPalindrome = expandString(s, i, i);
